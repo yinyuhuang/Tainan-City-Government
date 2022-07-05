@@ -1,0 +1,113 @@
+// 背景
+.content{
+    background-image: url(../img/bg-img.png),linear-gradient(to top, #042579, #2D8ABE);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:952px auto;
+}
+
+// 登入區塊
+.login{
+    background-color: #ffffff;
+    max-width: 512px;
+    h1{
+        margin: 16px 48px 152px;
+    }
+    .login_icon{
+        width: 96px;
+        margin: 0 auto;
+        background-image: linear-gradient(to top, #042579, #2D8ABE);
+        border-radius: 40px;
+        img{
+            margin: 16px;
+        }
+    }
+    .password_input{
+        position: relative;
+    }
+    .visibility{
+        position: absolute;
+        top: 27px;
+        right : 8px;
+    }
+    .login_policy{
+        margin-top: 145px;
+        ul{
+            padding-left:0px;
+            margin-bottom: 40px;
+        }
+        li{
+            padding: 0 52px;
+            // background-color: red;
+            border-left:1px solid #D3A003;
+        }
+        li:nth-child(3){
+            border-right: 1px  solid #D3A003;
+        }
+    }
+}
+
+// 連結區塊
+.link{
+    width: 40%;
+    margin: 259px auto 40px;
+}
+
+.link-list{
+    .link-item{
+
+        .btn-go{
+            visibility: hidden;
+            padding: 4px 16px;
+            border-radius: 20px;
+        }
+        .item{
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 1px solid #ffffffd3;
+            padding-bottom: 8px;
+        }
+        > .item:hover{
+            color: #ffffff;
+            font-weight: bold;
+            padding-left: 8px;
+            .btn-go{
+                visibility: initial;
+            }
+        }
+        .item-title{
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}
+
+.pag{
+    a{
+        text-decoration: none;
+    }
+    
+    .number{
+        line-height: 24px;
+    }
+    &-arrow{
+        border: 1px solid #ffffff;
+        padding: 4px;
+        border-radius: 4px;
+    }
+    &-arrow:hover{
+        background-color: #D3A003;
+        color: #ffffff;
+    }
+    &-number{
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        height: 34px;
+        width: 34px;
+        color: #ffffff;
+    }
+    &-number:hover{
+        background-color: #D3A003;
+        color: #ffffff;
+    }
+}
